@@ -2,7 +2,7 @@ indian = ["samosa", "daal", "naan"]
 chinese = ["egg role", "pot sticker", "fried rice"]
 italian = ["pizza", "pasta", "risotto"]
 
-dish = input("Enter a dish name:")
+dish = input("Enter dish name: ")
 
 if dish in indian:
     print(f"{dish} is indian")

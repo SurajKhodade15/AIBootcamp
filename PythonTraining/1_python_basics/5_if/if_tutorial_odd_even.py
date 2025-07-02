@@ -1,4 +1,4 @@
-n = input("Enter a number: ")
+n = 10
 n = int(n)
 
 if n % 2 == 0:
