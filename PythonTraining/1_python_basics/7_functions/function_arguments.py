@@ -19,3 +19,9 @@ def company_info(**kwargs):
 
 company_info(ticker='AAPL', ceo="Tim Cook", revenue="200 billion")
     
+import volume
+
+r = 5
+h = 10  
+print(f'The volume of the cylinder is: {volume.find_cylinder_volume(r, h)}')
+print(f'The volume of the sphere is: {volume.find_sphere_volume(r)}')

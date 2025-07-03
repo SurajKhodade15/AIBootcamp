@@ -1,4 +1,8 @@
 # read file
+import os
+cwdir = os.getcwd()
+print(f"Current working directory: {cwdir}")
+
 f=open("funny.txt","r")
 for line in f:
     print(line)
