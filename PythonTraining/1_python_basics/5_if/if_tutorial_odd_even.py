@@ -1,12 +1,7 @@
-n = 10
-n = int(n)
+n = int(input("Enter the number:"))
 
-if n % 2 == 0:
-    print("Number is even")
+
+if n%2 == 0:
+    print("Given number is Even.")
 else:
-    print("Number is odd")
-
-print("Now printing the answer using ternary operator")
-
-message = "Number is even" if n % 2 == 0 else "Number is odd"
-print(message)
+    print("Given number is Odd.")
