@@ -11,7 +11,7 @@ except TypeError as te:
     print("Exception occured: ", te)
     z = 0
 except Exception as e:
-    print("Generic exception occured: ",e`)
+    print("Generic exception occured: ",e)
     z = 0
 
 print("division is: ",z)
