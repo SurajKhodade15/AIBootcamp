@@ -1,0 +1,4 @@
+Employee,Department,Salary,Bonus
+Alice,HR,50000,1000
+Bob,Finance,60000,null
+Charlie,IT,70000,0
