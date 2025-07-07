@@ -52,8 +52,8 @@ def delete_expenses_for_date(expense_date):
 
 
 if __name__ == "__main__":
-    # fetch_all_records()
-    # fetch_expenses_for_date("2024-08-01")
-    # insert_expense("2024-08-20", 300, "Food", "Panipuri")
+    fetch_all_records()
+    fetch_expenses_for_date("2024-08-01")
+    insert_expense("2024-08-20", 300, "Food", "Panipuri")
     delete_expenses_for_date("2024-08-20")
     fetch_expenses_for_date("2024-08-20")
